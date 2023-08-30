@@ -6,6 +6,11 @@ Place three pointers...start, end and middle indices. If the req key is less tha
  discard the left. Keep track of the start, enda and mid indices everytime.
 */
 
+/*Binary works only when the input array is kind of sorted i.e fully sorted or partially sorted
+Fully Sorted: 82938, 89990, 989882, 827837, 283728923
+Partially Sorted: 62,28973, 8237872, 878,900,9882,987283
+*/
+
 int binarySearch(int arr[], int key){
     int n = arr.length;
     int start = 0;
