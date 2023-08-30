@@ -1,7 +1,7 @@
 
 
 /*  Approach: Input given is an array and a key, to find the index we need to traverse through the entire
-array, once found the key return the index of that key.
+array, once found the key return the index of that array element.
  */
 
 int linearSearch(int[] arr, int key){
